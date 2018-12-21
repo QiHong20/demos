@@ -4,25 +4,18 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.qihong</groupId>
-        <artifactId>spring-cloud-study</artifactId>
+        <artifactId>demo-dubbo-multicast</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.qihong</groupId>
-    <artifactId>demo-dubbo-multicast</artifactId>
+    <artifactId>demo-dubbo-multicast-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo-dubbo-multicast</name>
-    <packaging>pom</packaging>
+    <name>demo-dubbo-multicast-api</name>
     <description>Demo project for Spring Boot</description>
-    <modules>
-        <module>demo-dubbo-multicast-api</module>
-        <module>demo-dubbo-multicast-consumer</module>
-        <module>demo-dubbo-multicast-provider</module>
-    </modules>
+
     <properties>
         <java.version>1.8</java.version>
     </properties>
-
 
     <build>
         <plugins>
