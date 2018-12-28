@@ -21,17 +21,17 @@ public class FinalizeEscapeGc {
         SAVE_HOOK = null;
         System.gc();
         Thread.sleep(500);
-        if (SAVE_HOOK!=null){
+        if (SAVE_HOOK != null) {
             SAVE_HOOK.isAlive();
-        }else {
+        } else {
             System.out.printf("no ,i am dead :(");
         }
         SAVE_HOOK = null;
         System.gc();
         Thread.sleep(500);
-        if (SAVE_HOOK!=null){
+        if (SAVE_HOOK != null) {
             SAVE_HOOK.isAlive();
-        }else {
+        } else {
             System.out.printf("no ,i am dead :(");
         }
 
